@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6988FEE01BC52F450044E9B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FEDF1BC52F450044E9B2 /* main.m */; };
+		6988FEE31BC52F450044E9B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FEE21BC52F450044E9B2 /* AppDelegate.m */; };
+		6988FEE91BC52F450044E9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6988FEE71BC52F450044E9B2 /* Main.storyboard */; };
+		6988FEEB1BC52F450044E9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6988FEEA1BC52F450044E9B2 /* Assets.xcassets */; };
+		6988FEEE1BC52F450044E9B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6988FEEC1BC52F450044E9B2 /* LaunchScreen.storyboard */; };
+		6988FEFD1BC52F820044E9B2 /* JWPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FEF71BC52F820044E9B2 /* JWPopoverController.m */; settings = {ASSET_TAGS = (); }; };
+		6988FEFE1BC52F820044E9B2 /* JWPopoverPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FEF91BC52F820044E9B2 /* JWPopoverPopoverView.m */; settings = {ASSET_TAGS = (); }; };
+		6988FEFF1BC52F820044E9B2 /* JWPopoverTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FEFC1BC52F820044E9B2 /* JWPopoverTouchView.m */; settings = {ASSET_TAGS = (); }; };
+		6988FF021BC52F980044E9B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FF011BC52F980044E9B2 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6988FF051BC52FAC0044E9B2 /* JWPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6988FF041BC52FAC0044E9B2 /* JWPopupViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6988FEDB1BC52F450044E9B2 /* JWPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6988FEDF1BC52F450044E9B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6988FEE11BC52F450044E9B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6988FEE21BC52F450044E9B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6988FEE81BC52F450044E9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6988FEEA1BC52F450044E9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6988FEED1BC52F450044E9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6988FEEF1BC52F450044E9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6988FEF61BC52F820044E9B2 /* JWPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPopoverController.h; sourceTree = "<group>"; };
+		6988FEF71BC52F820044E9B2 /* JWPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPopoverController.m; sourceTree = "<group>"; };
+		6988FEF81BC52F820044E9B2 /* JWPopoverPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPopoverPopoverView.h; sourceTree = "<group>"; };
+		6988FEF91BC52F820044E9B2 /* JWPopoverPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPopoverPopoverView.m; sourceTree = "<group>"; };
+		6988FEFA1BC52F820044E9B2 /* JWPopoverTouchesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPopoverTouchesDelegate.h; sourceTree = "<group>"; };
+		6988FEFB1BC52F820044E9B2 /* JWPopoverTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPopoverTouchView.h; sourceTree = "<group>"; };
+		6988FEFC1BC52F820044E9B2 /* JWPopoverTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPopoverTouchView.m; sourceTree = "<group>"; };
+		6988FF001BC52F980044E9B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6988FF011BC52F980044E9B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6988FF031BC52FAC0044E9B2 /* JWPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPopupViewController.h; sourceTree = "<group>"; };
+		6988FF041BC52FAC0044E9B2 /* JWPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPopupViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6988FED81BC52F450044E9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6988FED21BC52F450044E9B2 = {
+			isa = PBXGroup;
+			children = (
+				6988FEDD1BC52F450044E9B2 /* JWPopover */,
+				6988FEDC1BC52F450044E9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6988FEDC1BC52F450044E9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6988FEDB1BC52F450044E9B2 /* JWPopover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6988FEDD1BC52F450044E9B2 /* JWPopover */ = {
+			isa = PBXGroup;
+			children = (
+				6988FEF51BC52F820044E9B2 /* JWPopover */,
+				6988FEE11BC52F450044E9B2 /* AppDelegate.h */,
+				6988FEE21BC52F450044E9B2 /* AppDelegate.m */,
+				6988FF001BC52F980044E9B2 /* ViewController.h */,
+				6988FF011BC52F980044E9B2 /* ViewController.m */,
+				6988FEE71BC52F450044E9B2 /* Main.storyboard */,
+				6988FEEA1BC52F450044E9B2 /* Assets.xcassets */,
+				6988FEEC1BC52F450044E9B2 /* LaunchScreen.storyboard */,
+				6988FEEF1BC52F450044E9B2 /* Info.plist */,
+				6988FEDE1BC52F450044E9B2 /* Supporting Files */,
+			);
+			path = JWPopover;
+			sourceTree = "<group>";
+		};
+		6988FEDE1BC52F450044E9B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6988FEDF1BC52F450044E9B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6988FEF51BC52F820044E9B2 /* JWPopover */ = {
+			isa = PBXGroup;
+			children = (
+				6988FF031BC52FAC0044E9B2 /* JWPopupViewController.h */,
+				6988FF041BC52FAC0044E9B2 /* JWPopupViewController.m */,
+				6988FEF61BC52F820044E9B2 /* JWPopoverController.h */,
+				6988FEF71BC52F820044E9B2 /* JWPopoverController.m */,
+				6988FEF81BC52F820044E9B2 /* JWPopoverPopoverView.h */,
+				6988FEF91BC52F820044E9B2 /* JWPopoverPopoverView.m */,
+				6988FEFA1BC52F820044E9B2 /* JWPopoverTouchesDelegate.h */,
+				6988FEFB1BC52F820044E9B2 /* JWPopoverTouchView.h */,
+				6988FEFC1BC52F820044E9B2 /* JWPopoverTouchView.m */,
+			);
+			path = JWPopover;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6988FEDA1BC52F450044E9B2 /* JWPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6988FEF21BC52F450044E9B2 /* Build configuration list for PBXNativeTarget "JWPopover" */;
+			buildPhases = (
+				6988FED71BC52F450044E9B2 /* Sources */,
+				6988FED81BC52F450044E9B2 /* Frameworks */,
+				6988FED91BC52F450044E9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWPopover;
+			productName = JWPopover;
+			productReference = 6988FEDB1BC52F450044E9B2 /* JWPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6988FED31BC52F450044E9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jianwei.chen;
+				TargetAttributes = {
+					6988FEDA1BC52F450044E9B2 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6988FED61BC52F450044E9B2 /* Build configuration list for PBXProject "JWPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6988FED21BC52F450044E9B2;
+			productRefGroup = 6988FEDC1BC52F450044E9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6988FEDA1BC52F450044E9B2 /* JWPopover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6988FED91BC52F450044E9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6988FEEE1BC52F450044E9B2 /* LaunchScreen.storyboard in Resources */,
+				6988FEEB1BC52F450044E9B2 /* Assets.xcassets in Resources */,
+				6988FEE91BC52F450044E9B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6988FED71BC52F450044E9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6988FF051BC52FAC0044E9B2 /* JWPopupViewController.m in Sources */,
+				6988FF021BC52F980044E9B2 /* ViewController.m in Sources */,
+				6988FEFE1BC52F820044E9B2 /* JWPopoverPopoverView.m in Sources */,
+				6988FEFD1BC52F820044E9B2 /* JWPopoverController.m in Sources */,
+				6988FEFF1BC52F820044E9B2 /* JWPopoverTouchView.m in Sources */,
+				6988FEE31BC52F450044E9B2 /* AppDelegate.m in Sources */,
+				6988FEE01BC52F450044E9B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6988FEE71BC52F450044E9B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6988FEE81BC52F450044E9B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6988FEEC1BC52F450044E9B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6988FEED1BC52F450044E9B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6988FEF01BC52F450044E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6988FEF11BC52F450044E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6988FEF31BC52F450044E9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6988FEF41BC52F450044E9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWPopover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JWPopover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6988FED61BC52F450044E9B2 /* Build configuration list for PBXProject "JWPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6988FEF01BC52F450044E9B2 /* Debug */,
+				6988FEF11BC52F450044E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6988FEF21BC52F450044E9B2 /* Build configuration list for PBXNativeTarget "JWPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6988FEF31BC52F450044E9B2 /* Debug */,
+				6988FEF41BC52F450044E9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6988FED31BC52F450044E9B2 /* Project object */;
+}
